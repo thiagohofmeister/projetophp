@@ -1,0 +1,6 @@
+.env
+*.env
+crons
+crons/*
+public/uploads
+public/uploads/*

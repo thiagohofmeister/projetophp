@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+
+body {
+    padding-top: 0px;
+    font-family: 'Roboto';
+    background-color: #e4e4e4;
+    color: #676767;
+}
+
+.background{
+	background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+
+}
+.battlerite{
+	width: 50%;
+	margin: 0 auto;
+}
+.main{
+	margin-top: -332px;
+}
+.main .searchbox h4{
+	color: #FFF;
+	font-size: 32px;
+}
+
+nav {
+	text-align: right;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
+}
+nav ul li {
+	display: inline-block;
+	margin-top: 50px;
+}
+nav ul li a{
+	color: #FFF;
+	font-weight: 700;
+}
+
+.table {
+    margin-bottom: 0px;
+}
+.panel-body{
+	padding: 0px;
+}
+.itemTitle{
+	font-size: 1.2em;
+    letter-spacing: -0.5px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.qntDesc{
+	margin-top: 4px;
+	color: #8a8989;
+	margin-right: 32px;
+    margin-left: 32px;
+}
+.qntDescDown{
+    margin-top: 18px;
+}
+.descTopic {
+	max-width: 346px;
+	line-height: 1.0;
+	color: #8a8989;
+}
+.descDate {
+	max-width: 346px;
+	line-height: 1.0;
+	color: #8a8989;
+    margin-top: 3px;
+}
+.quoteTitle{
+    letter-spacing: -0.5px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.descAuthor{
+	max-width: 270px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.authorLink a{
+	color: #AA0000;
+	font-weight: 900;
+}
+.avatarAuthor{
+	margin-top: 6px;
+}
+.marginLeft{
+	margin-left: 14px;
+}
+.avatar{
+	width: 40px;
+	height: 40px;
+}
+tbody tr td .status {
+	font-size: 3em;
+    margin-left: 14px;
+}
+.panel {
+    padding: 10px 10px 5px;
+    background-color: #f8f8f8;
+    border-radius: 0 0 0 0;
+    border: 0px solid transparent;
+}
+.table-responsive{
+	background-color: #FFF;
+	border-bottom-color: #eeeeee;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border-top: 0px solid #ddd;
+}
+.brokenType{
+	background-color: #ac7b41;
+	margin-top: 24px;
+	border-radius: 10px 10px 0 0;
+	padding-bottom: 0px;
+}
+.brokenType h4{
+	padding: 15px 0;
+	margin-bottom: 0px !important;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 30px;
+}
+.bigBox{
+	background-color: #FFF;
+	margin-right: 0px;
+    margin-left: 0px;
+    margin-top: -42px;
+    border-radius: 5px 5px 0 0;
+}
+.bigBox h1{
+	font-family: 'Lato';
+    font-size: 2em;
+    margin-top: 0px;
+}
+.bigBox span{
+	font-size: 16px;
+	font-family: 'Lato';
+}
+.titlePage{
+	padding-left: 200px;
+    padding-top: 26px;
+}
+
+.main .searchbox {
+    /* background-color: rgba(225, 229, 233, 0.3); */
+    /* background: rgba(225, 229, 233, 0.3); */
+}
+.well {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+}
+.panel-cody-down{
+	margin-top: 10px;
+}
+
+/* POSTAGEM */
+.cabecalho{
+	margin-top: 20px;
+}
+.breadcrumb{
+	margin-left: 0px;
+}
+.cabecalho .infopost{
+	margin-top: 32px;
+}
+.cabecalho .infopost button{
+	float: right;
+}
+.bcseparator{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.titlePost{
+	margin-top: 15px !important;
+}
+.left-side{
+	float: left;
+	border-top:  1px solid #e4e4e4;
+	margin-left: 10px;
+	padding: 10px;
+}
+.right-side{
+	background-color: #D1D;
+	height: 100px;
+    margin-left: 10px;
+    width: 265px;
+}
+.nomargin{
+	margin: 0;
+}
+.boxpost{
+	margin-top: 10px;
+}
+.user .avatar {
+	width: 100px;
+	height: 100px;
+}
+.bigBox .user{
+	border-right: 1px solid #e4e4e4;
+}
+.boxrepost{
+	background-color: #FFF;
+	margin-top: 10px;
+}
+.boxrepost .avatar {
+	width: 100px;
+	height: 100px;
+}
+.user .img-responsive{
+	margin: 0 auto;
+}
+.user{
+	margin-top: 15px;
+}
+.infouser{
+	margin-top: 10px;
+}
+
+/****** REGISTER ********/
+
+.centered-form{
+	margin-top: 60px;
+}
+
+.centered-form .panel{
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+
+label.label-floatlabel {
+    font-weight: bold;
+    color: #46b8da;
+    font-size: 11px;
+}

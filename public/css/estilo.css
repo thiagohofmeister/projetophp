@@ -1,0 +1,22 @@
+/* Sobreescrever o Bootstrap */
+
+body {
+    background: #fff;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+.navbar-inverse {
+    background: #da251c;
+    border: none;
+    border-radius: 0;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background: #b52019;
+}
+
+textarea {
+	resize: none;
+}
